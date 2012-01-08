@@ -9,4 +9,13 @@
         android:layout_height="wrap_content"
         android:text="Nearest_shops" />
 
+    <com.google.android.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0Ji1I480BHe5nENEZOptOxyVVY8hiqgRDd9xTTA"
+        android:clickable="true"
+        android:enabled="true" />
+
 </LinearLayout>
