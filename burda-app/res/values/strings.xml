@@ -3,5 +3,10 @@
 
     <string name="hello">Hello World, BurdaAppStartActivity!</string>
     <string name="app_name">Burda app</string>
+    <string name="mygtukas_naujienos">Naujienos</string>
+    <string name="mygtukas_lojalumas">Lojalumo programa</string>
+    <string name="mygtukas_prekiu_zenklai">Prekių ženklai</string>
+    <string name="mygtukas_parduotuves">Parduotuvės</string>
+    <string name="mygtukas_artimiausia_parduotuve">Artimiausios parduotuvės</string>
 
 </resources>
