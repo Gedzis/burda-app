@@ -18,6 +18,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.NewsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.BrandsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.LoyaltyActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.NearestShopsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.ShopsActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>
