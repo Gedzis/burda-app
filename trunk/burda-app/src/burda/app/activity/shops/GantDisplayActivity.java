@@ -8,6 +8,6 @@ public class GantDisplayActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.loyalty);
+		setContentView(R.layout.gant_layout);
 	}
 }

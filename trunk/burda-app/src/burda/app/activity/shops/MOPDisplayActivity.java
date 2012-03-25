@@ -8,6 +8,6 @@ public class MOPDisplayActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.loyalty);
+		setContentView(R.layout.mop_layout);
 	}
 }
