@@ -1,38 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/bg"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content" >
 
-       <Button
-        android:id="@+id/button_news"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mygtukas_naujienos" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg"
+        android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/button_loyalty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mygtukas_lojalumas" />
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
 
-    <Button
-        android:id="@+id/button_brands"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mygtukas_prekiu_zenklai" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/logo" />
 
-    <Button
-        android:id="@+id/button_nearests_shops"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mygtukas_artimiausia_parduotuve" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingTop="4dp"
+                android:src="@drawable/home" />
+        </RelativeLayout>
 
-    <Button
-        android:id="@+id/button_shops"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mygtukas_parduotuves" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="5dp"
+            android:src="@drawable/main_image" />
 
-</LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gant_button" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/more_button" />
+
+                <ImageView
+                    android:id="@+id/main_button_mop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal|center"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/mop_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal|center"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/newhouse_button" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="5dp"
+            android:src="@drawable/lauren_button" />
+
+        <Button
+            android:id="@+id/button_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mygtukas_naujienos" />
+
+        <Button
+            android:id="@+id/button_loyalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mygtukas_lojalumas" />
+
+        <Button
+            android:id="@+id/button_brands"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mygtukas_prekiu_zenklai" />
+
+        <Button
+            android:id="@+id/button_nearests_shops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mygtukas_artimiausia_parduotuve" />
+
+        <Button
+            android:id="@+id/button_shops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mygtukas_parduotuves" />
+    </LinearLayout>
+
+</ScrollView>
