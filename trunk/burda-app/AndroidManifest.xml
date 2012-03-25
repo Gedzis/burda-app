@@ -40,6 +40,21 @@
         <activity
             android:name=".activity.shops.MOPDisplayActivity"
             android:label="@string/app_name" />
+        <activity
+            android:name=".activity.shops.GantDisplayActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.shops.HouseDisplayActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.shops.LaurenDisplayActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.shops.MOPDisplayActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.shops.MoreDisplayActivity"
+            android:label="@string/app_name" />
 
         <uses-library android:name="com.google.android.maps" />
     </application>
