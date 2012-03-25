@@ -94,35 +94,30 @@
             android:paddingTop="5dp"
             android:src="@drawable/lauren_button" />
 
-        <Button
-            android:id="@+id/button_news"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mygtukas_naujienos" />
-
-        <Button
-            android:id="@+id/button_loyalty"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mygtukas_lojalumas" />
-
-        <Button
-            android:id="@+id/button_brands"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mygtukas_prekiu_zenklai" />
-
-        <Button
-            android:id="@+id/button_nearests_shops"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mygtukas_artimiausia_parduotuve" />
-
-        <Button
+        <ImageView
             android:id="@+id/button_shops"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mygtukas_parduotuves" />
+            android:src="@drawable/pard_button" />
+        
+        <ImageView
+            android:id="@+id/button_loyalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loj_button" />
+        
+         <ImageView
+            android:id="@+id/button_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/naujienos_button" />
+         
+         <ImageView
+            android:id="@+id/button_nearests_shops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_button" />
+
     </LinearLayout>
 
 </ScrollView>

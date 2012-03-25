@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import burda.app.activity.BrandsActivity;
 import burda.app.activity.LoyaltyActivity;
 import burda.app.activity.MOPDisplayActivity;
 import burda.app.activity.NearestShopsActivity;
@@ -22,9 +21,6 @@ public class BurdaAppStartActivity extends Activity implements OnClickListener {
 		// Find buttons
 		View newsButton = findViewById(R.id.button_news);
 		newsButton.setOnClickListener(this);
-
-		View brandsButton = findViewById(R.id.button_brands);
-		brandsButton.setOnClickListener(this);
 
 		View loyaltyButton = findViewById(R.id.button_loyalty);
 		loyaltyButton.setOnClickListener(this);
@@ -47,9 +43,6 @@ public class BurdaAppStartActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.button_nearests_shops:
 			startActivity(new Intent(this, NearestShopsActivity.class));
-			break;
-		case R.id.button_brands:
-			startActivity(new Intent(this, BrandsActivity.class));
 			break;
 		case R.id.button_shops:
 			startActivity(new Intent(this, ShopsActivity.class));
