@@ -8,6 +8,6 @@ public class MoreDisplayActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.loyalty);
+		setContentView(R.layout.more_layout);
 	}
 }

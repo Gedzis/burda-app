@@ -34,12 +34,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal|center"
             android:paddingTop="20dp"
-            android:src="@drawable/lauren_logo" />
+            android:src="@drawable/mop_logo" />
         
         <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lauren_content"
+        android:text="@string/mop_content"
         android:padding="9dp"
         android:textColor="@color/black" />
         
