@@ -50,11 +50,13 @@
                 android:orientation="vertical" >
 
                 <ImageView
+                    android:id="@+id/main_button_gant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/gant_button" />
 
                 <ImageView
+                    android:id="@+id/main_button_more"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
@@ -77,6 +79,7 @@
                 android:orientation="vertical" >
 
                 <ImageView
+                    android:id="@+id/main_button_newHouse"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal|center"
@@ -87,6 +90,7 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/main_button_lauren"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal|center"
@@ -99,25 +103,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/pard_button" />
-        
+
         <ImageView
             android:id="@+id/button_loyalty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/loj_button" />
-        
-         <ImageView
+
+        <ImageView
             android:id="@+id/button_news"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/naujienos_button" />
-         
-         <ImageView
+
+        <ImageView
             android:id="@+id/button_nearests_shops"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/search_button" />
-
     </LinearLayout>
 
 </ScrollView>
