@@ -10,10 +10,8 @@ public class NewsActivity extends BaseActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.news);
-	}
-
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
+		this.initClickActivity();
 
 	}
+
 }

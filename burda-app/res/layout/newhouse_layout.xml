@@ -22,6 +22,7 @@
                 android:src="@drawable/logo" />
 
             <ImageView
+                android:id="@+id/main_button_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -35,16 +36,13 @@
             android:layout_gravity="center_vertical|center_horizontal|center"
             android:paddingTop="20dp"
             android:src="@drawable/newhouse_logo" />
-        
+
         <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/newhouse_content"
-        android:padding="9dp"
-        android:textColor="@color/black" />
-        
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:text="@string/newhouse_content"
+            android:textColor="@color/black" />
     </LinearLayout>
-    
-    
 
 </ScrollView>

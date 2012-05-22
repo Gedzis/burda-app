@@ -22,6 +22,7 @@
                 android:src="@drawable/logo" />
 
             <ImageView
+                android:id="@+id/main_button_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -29,17 +30,44 @@
                 android:src="@drawable/home" />
         </RelativeLayout>
 
-       
-        
         <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lauren_content"
-        android:padding="9dp"
-        android:textColor="@color/black" />
-        
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shops_content_1"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shops_content_1_2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shops_content_2"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shops_content_2_2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shops_content_3"
+            android:textColor="@color/black" />
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/shops_content_3_2"
+            android:textColor="@color/black" />
     </LinearLayout>
-    
-    
 
 </ScrollView>
