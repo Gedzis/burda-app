@@ -10,5 +10,7 @@ public class MoreDisplayActivity extends BaseActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.more_layout);
+		this.initClickActivity();
+
 	}
 }

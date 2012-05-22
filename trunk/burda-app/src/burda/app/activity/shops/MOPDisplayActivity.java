@@ -10,5 +10,7 @@ public class MOPDisplayActivity extends BaseActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mop_layout);
+		this.initClickActivity();
+
 	}
 }

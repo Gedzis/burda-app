@@ -9,5 +9,7 @@ public class GantDisplayActivity extends BaseActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.gant_layout);
+		this.initClickActivity();
+
 	}
 }
