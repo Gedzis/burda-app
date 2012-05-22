@@ -29,12 +29,7 @@
                 android:src="@drawable/home" />
         </RelativeLayout>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal|center"
-            android:paddingTop="20dp"
-            android:src="@drawable/lauren_logo" />
+       
         
         <TextView
         android:layout_width="fill_parent"

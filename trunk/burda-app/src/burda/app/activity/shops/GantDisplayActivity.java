@@ -1,10 +1,10 @@
 package burda.app.activity.shops;
 
-import burda.app.R;
-import android.app.Activity;
 import android.os.Bundle;
+import burda.app.BaseActivity;
+import burda.app.R;
 
-public class GantDisplayActivity extends Activity {
+public class GantDisplayActivity extends BaseActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
